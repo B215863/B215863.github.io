@@ -90,7 +90,7 @@ h2{
 p{
     padding-top: 0.5rem;
 }
-.container {
+.container, section {
     /* background-color: gray; */
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ p{
 }
 
 /* Defining the sections */
-#sections{
+#pages{
     height: auto;
 }
 .row{
@@ -218,7 +218,7 @@ p{
 }
 
 /* Footer styles */
-.foot {
+footer p{
     height: 5rem; /* Set the height of the footer */
     display: flex;
     justify-content: center; /* Horizontally center content */
