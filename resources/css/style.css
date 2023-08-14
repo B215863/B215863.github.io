@@ -26,7 +26,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 }
 
 /* Header style */
-header .navigation {
+header nav {
     background-color: var(--rich-black);
     color: #cdc0a2;
     position: fixed;
@@ -41,7 +41,7 @@ header .navigation {
 }
 
 /* Navigation list styles */
-.navigation ul {
+nav ul {
     list-style: none; /* Remove bullet points */
     display: flex; /* Display list items horizontally */
     margin: 0;
@@ -49,13 +49,13 @@ header .navigation {
 }
 
 /* Navigation list item styles */
-.navigation li {
+nav li {
     height:100%;
     width: inherit; /* Add spacing between list items */
 }
 
 /* Navigation link styles */
-.navigation a {
+nav a {
     text-decoration: none;
     color: inherit;
     height: inherit;
@@ -65,7 +65,7 @@ header .navigation {
 }
 
 /* Hover styles for navigation links */
-.navigation a:hover {
+nav a:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
 }
 
@@ -130,7 +130,7 @@ p{
     padding: 0 5%;
 }
 #phonology{background-image: url(../images/phonology.png);}
-#structure{ background-image: url(../images/structure.jpg);}
+#syntax{ background-image: url(../images/structure.jpg);}
 #meaning{ background-image: url(../images/meaning.jpg!d);}
 #universality{ background-image: url(../images/universality);}
 #acquisition{ background-image: url(../images/acquisition.jpeg);}
